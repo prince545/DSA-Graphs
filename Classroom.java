@@ -1,9 +1,9 @@
 import java.util.*;
 
-class Edge {
+class HiEdge {
     int src, dest, wt;
 
-    public Edge(int s, int d, int w) {
+    public HiEdge(int s, int d, int w) {
         this.src = s;
         this.dest = d;
         this.wt = w;

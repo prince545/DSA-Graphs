@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Edge {
+    public String wt;
     int src, dest, weight;
 
     Edge(int s, int d, int w) {
